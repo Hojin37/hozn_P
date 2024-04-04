@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MainController {
 
     @GetMapping("/controller")
-    public String main() {
+    public String mainController() {
         System.out.println("컨트롤러 작동됨!");
         return "/index";
     }
