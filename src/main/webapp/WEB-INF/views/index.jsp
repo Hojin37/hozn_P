@@ -32,12 +32,20 @@
             cursor: pointer;
         }
 
+        .form {
+            margin: 10% 0 0 10%;
+        }
+
     </style>
 </head>
     <body>
         <div class="header">
             <button class="homeBtn" onclick="window.location.href='/main'">hozn_P</button>
         </div>
+        <form class="form" method="post" action="/textInput">
+            <input type="text" name="text" placeholder="텍스트 입력">
+            <button type="submit">입력</button>
+        </form>
 
 
 
