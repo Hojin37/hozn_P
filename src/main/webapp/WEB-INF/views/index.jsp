@@ -15,17 +15,19 @@
             left: 0;
             width: 100%;
             height: 40px;
-            background-color: gainsboro;
+            background-color: black;
         }
 
         .homeBtn {
             position: absolute;
             top: 10%;
+            left: 1%;
             width: 5%;
             height: 80%;
             border: 0;
             font-size: 20px;
-            font-weight: 500;
+            font-weight: 700;
+            color: white;
             background-color: transparent;
         }
 
@@ -39,6 +41,26 @@
             margin: 10% 0 0 10%;
         }
 
+        .gitBtn {
+            position: absolute;
+            right: 2%;
+            bottom: 5%;
+            width: 50px;
+            height: 50px;
+            border: 0;
+            border-radius: 25%;
+            background-color: transparent;
+            background-image: url("/resources/github-mark.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .gitBtn:hover {
+            transition-duration: 200ms;
+            transform: scale(1.05, 1.05);
+            cursor: pointer;
+        }
+
     </style>
 </head>
     <body>
@@ -50,6 +72,8 @@
             <button type="submit">입력</button>
         </form>
 
+
+        <button class="gitBtn" onclick="window.location.href='https://github.com/Hojin37'"></button>
 
 
 
